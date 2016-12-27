@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: black	;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Start of header*/
+
+#header-nav {
+	background-color: grey;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+#header-nav h1 {
+	color:white;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color:blue;
+
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+  		border: 1px solid black ;
+
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1em;
+}
+
+.navbar-brand {
+	height:100px;
+}
+/* End of Header */
+
+
+/* Div Content Formats */
+.container .row .chicken {
+	background-color: grey;
+	color:white;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height:1000px;
+}
+
+h3 {
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+/*end of content*/
+
+/********** Medium devices only **********/
+@media (min-width: 992px)  {
+.chicken {
+	background-color: blue;	
+	width:95%;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.chicken {
+	background-color: blue;
+	width:95%;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ .chicken {
+	background-color: blue;
+	width:95%;
+	}
+
+	#collapsable-nav{
+		background-color: blue;
+		margin-top:0;
+		padding:0;
+	}
+
+  }
+  /* End Header */

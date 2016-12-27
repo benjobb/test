@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#body-container section {
+	padding: 10px;
+}
+
+#body-container section div {
+	background: #ccff99;
+	padding: 5px 15px 15px;
+}
+
+#body-container a {
+	text-decoration: underline;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+	#navbar-collapsible-section  {
+		background: #ccff99;
+	}
+
+	#navbar-collapsible-section li {
+		text-align: center;
+	}
+}
